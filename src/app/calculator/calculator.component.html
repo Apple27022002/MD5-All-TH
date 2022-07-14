@@ -1,1 +1,20 @@
-<p>calculator works!</p>
+<h2>calculator </h2>
+<label for="first"></label>
+<input #target id="first" type="number" class="form-control" [value]="first" (change)="setFirst(target.value)">
+
+<label for="operator"></label>
+<select #target1 id="operator" class="form-control" [value]="operator" (change)="setOperator(target1.value)">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">x</option>
+  <option value="/">/</option>
+</select>
+
+<label for="second"></label>
+<input #target2 id="second" type="number" class="form-control" [value]="second" (change)="setSecond(target2.value)">
+
+<button (click)="calculate()">do it</button>
+
+<div>
+  {{output}}
+</div>
