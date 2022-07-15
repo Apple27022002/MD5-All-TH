@@ -9,6 +9,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
 import { ColorComponent } from './color/color.component';
 import { ArticleComponent } from './article/article.component';
 import { LikeComponent } from './like/like.component';
+import { NameCardComponent } from './name-card/name-card.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { LikeComponent } from './like/like.component';
     CalculatorComponent,
     ColorComponent,
     ArticleComponent,
-    LikeComponent
+    LikeComponent,
+    NameCardComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
