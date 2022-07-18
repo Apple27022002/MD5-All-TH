@@ -11,6 +11,8 @@ import { ArticleComponent } from './article/article.component';
 import { LikeComponent } from './like/like.component';
 import { NameCardComponent } from './name-card/name-card.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { RatingBarComponent } from './rating-bar/rating-bar.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
     ArticleComponent,
     LikeComponent,
     NameCardComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    RatingBarComponent,
+    CountdownTimerComponent
   ],
   imports: [
     BrowserModule,
